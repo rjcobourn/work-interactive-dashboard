@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  background: rgb(12, 17, 21);
+  font-family: 'Playfair Display', serif;
+  color: whitesmoke;
+}
+
+.topBarText {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.infoBox {
+  width: 150px;
+  height: 100px;
+  border-radius: 5%;
+  border: 2px solid black;
+}
+
+.connectButton {
+  background-color: rgb(250,87,56);
+  color: whitesmoke;
+  font-size: 20px;
+  height: 48px;
+  margin-right: 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
